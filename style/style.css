@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "KaiseiTokumin";
+  src: url("/font/KaiseiTokumin-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: KaiseiTokumin, sans-serif;
+}
+
+/* -------------- header -------------*/
+
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------- logo -------------*/
+
+.box-logo {
+  width: 350px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* -------------- li de box-infos ------------*/
+
+.box-infos li {
+  color: black;
+  font-size: 20px;
+}
+.quiSuisJe {
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* --------------- icone reseaux sociaux -----------*/
+
+.fa-instagram {
+  color: #e46fa8;
+}
+
+.fa-twitter {
+  color: #1a8cd8;
+}
+
+header i {
+  padding: 5px;
+}
+
+/* --------------- container de balise <main> bootstrap ----------------- */
+
+.banniere-box {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.img-banniere {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  position: absolute;
+  letter-spacing: 2px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+/* box avec différents niveaux */
+.trois-box-ensemble {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+.box1,
+.box2,
+.box3 {
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  box-shadow: 2px 1px 1px rgba(128, 128, 128, 0.295);
+  height: 70px;
+  width: 30%;
+  text-align: center;
+  padding-top: 20px;
+}
+.trois-box-ensemble a {
+  color: black;
+  font-weight: bold;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    #b69f9f,
+    #c7b6bb,
+    #d8ced4,
+    #eae7eb,
+    #ffffff
+  );
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* ----------------------- footer ----------------------*/
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #b69f9f77;
+  margin-top: 50px;
+}
+.footer-ul {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+footer li {
+  color: black;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+footer i {
+  font-size: 30px;
+  padding: 5px;
+}
