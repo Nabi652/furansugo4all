@@ -12,7 +12,6 @@
 body {
   margin: 0;
   font-family: KaiseiTokumin, sans-serif;
-  height: 200vh;
 }
 
 /* -------------- header -------------*/
@@ -118,4 +117,10 @@ header i {
 
   display: flex;
   justify-content: space-between;
+}
+
+/* containr naomi box pour margin bottom*/
+
+.naomiBox {
+  margin-bottom: 50px;
 }
