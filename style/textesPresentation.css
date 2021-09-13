@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "KaiseiTokumin";
+  src: url("/font/KaiseiTokumin-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: KaiseiTokumin, sans-serif;
+  height: 200vh;
+}
+
+/* -------------- header -------------*/
+
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------- logo -------------*/
+
+.box-logo {
+  width: 350px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* -------------- li de box-infos ------------*/
+
+.box-infos li {
+  color: black;
+  font-size: 20px;
+}
+.quiSuisJe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ---------------- li page d'accueil ------------*/
+.pageAccueil {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* --------------- icone reseaux sociaux -----------*/
+
+.fa-instagram {
+  color: #e46fa8;
+}
+
+.fa-twitter {
+  color: #1a8cd8;
+}
+
+header i {
+  padding: 5px;
+}
+
+/* div des textes */
+
+.text-box {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+.box-interne {
+  padding: 10px;
+  width: 70%;
+}
+/* --------------- titre h2 explications ----------------*/
+
+.h2-explications {
+  font-size: xx-large;
+  text-align: center;
+}
+
+/* ---------- image ------------*/
+
+.box-img {
+  width: 250px;
+  height: 250px;
+}
+.box1,
+.box2,
+.box3 {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.explications {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
