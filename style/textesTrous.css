@@ -31,3 +31,10 @@ button {
 button:hover {
   transform: translate(1px, 2px);
 }
+
+/* ---------------------- audio du fichier textesLire.html -------------*/
+
+audio {
+  border-radius: 5px;
+  margin-top: 10px;
+}

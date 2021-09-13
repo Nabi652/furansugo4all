@@ -76,11 +76,10 @@ header i {
 }
 .div {
   width: 100%;
-  border: 1px solid red;
   padding: 20px;
   border: 1px solid rgba(112, 98, 98, 0.253);
   box-shadow: 2px 1px 1px rgba(128, 128, 128, 0.295);
-  transition: 0.5s;
+  margin-bottom: 50px;
 }
 .div:hover {
   background-image: linear-gradient(
@@ -92,6 +91,7 @@ header i {
     #ffffff
   );
   cursor: pointer;
+  transition: 0.5s;
 }
 /* ----------------------- footer ----------------------*/
 footer {
