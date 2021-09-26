@@ -28,17 +28,28 @@
       </nav>
     </header>
     <main>
+      <h1>Textes à trous à remplir</h1>
       <div class="ensemble-textes">
         <div class="div-texte">
-          <p>
-            Je m'appelle Rémi, j'ai 29 <input /> à Toulouse. Je travaille
-            <input />cuisinier dans un <input /> français. Je suis marié et j'ai
-            un enfant. Je travaille beaucoup mais le <input />, j'aime passer du
-            temps avec ma famille et préparer de <input />
-            plats.
-          </p>
-          <p>bons/comme/restaurant/j'habite/weekend/ans</p>
-          <button id="buttonValider">Valider</button>
+          <form name="form-quizz">
+            <p>
+              Je m'appelle Rémi, j'ai 29
+              <input name="reponse1" type="text" id="reponse1" /> et j'habite à
+              Toulouse. Je travaille
+              <input name="reponse2" type="text" id="reponse2" />cuisinier dans
+              un <input name="reponse3" type="text" id="reponse3" /> français.
+              Je suis marié et j'ai un enfant. Je travaille beaucoup mais le
+              <input name="reponse4" type="text" id="reponse4" />, j'aime passer
+              du temps avec ma famille et préparer de
+              <input name="reponse5" type="text" id="reponse5" />
+              plats.
+            </p>
+            <span>Choisir les bons mots:</span>
+            <p>bons/comme/restaurant/weekend/ans</p>
+            <!-- <button id="buttonValider" type="submit">Valider</button> -->
+            <!-- <button onclick="cliquez()">cliquer ici</button> -->
+            <p id="reponses" class="rep1">Cliquer pour voir la réponse</p>
+          </form>
         </div>
 
         <div class="div-texte">
@@ -48,8 +59,9 @@
             avons deux <input />. Je travaille comme <input />, à la mairie.
             J'aime <input /> et peindre dans mon <input />.
           </p>
+          <span>Choisir les bons mots:</span>
           <p>assistante/enfants/cuisiner/viens/depuis/mariée/jardin</p>
-          <button id="buttonValider">Valider</button>
+          <p id="reponses" class="rep2">Cliquer pour voir la réponse</p>
         </div>
 
         <div class="div-texte">
@@ -60,8 +72,9 @@
             <input />. Elle aime faire du <input /> et lire des <input /> de
             mode.
           </p>
+          <span>Choisir les bons mots:</span>
           <p>jogging//homme/magazines/chômage/travail/32/Londres</p>
-          <button id="buttonValider">Valider</button>
+          <p id="reponses" class="rep3">Cliquer pour voir la réponse</p>
         </div>
 
         <div class="div-texte">
@@ -71,10 +84,12 @@
             vous vivez avec votre fils. Vous aimez <input />, faire du
             <input /> et étudier de <input /> langues.
           </p>
-          <p>golf/internationale/nouvelles/divorcé/voyager/comptable/</p>
-          <button id="buttonValider">Valider</button>
+          <span>Choisir les bons mots:</span>
+          <p>golf/internationale/nouvelles/divorcé/voyager/comptable</p>
+          <p id="reponses" class="rep4">Cliquer pour voir la réponse</p>
         </div>
       </div>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>

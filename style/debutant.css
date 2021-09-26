@@ -125,3 +125,25 @@ footer i {
   font-size: 30px;
   padding: 5px;
 }
+
+/* audio du fichier dictees.html*/
+
+figure {
+  text-align: center;
+}
+
+audio {
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.div-texte h2 {
+  font-size: large;
+}
+
+/* h1 de textes à lire */
+
+h1 {
+  text-align: center;
+}
