@@ -175,3 +175,37 @@ p {
   margin-top: 30px;
   font-size: 20px;
 }
+
+/* media query */
+
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+  header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-infos {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    color: white;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+  }
+
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+}

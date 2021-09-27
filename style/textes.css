@@ -116,3 +116,25 @@ footer i {
   font-size: 30px;
   padding: 5px;
 }
+
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-infos {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+}

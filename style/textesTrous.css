@@ -60,3 +60,12 @@ audio {
   letter-spacing: 3px;
   height: 100%;
 }
+
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+  #reponses {
+    width: 100%;
+  }
+  audio {
+    width: 100%;
+  }
+}
