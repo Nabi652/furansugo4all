@@ -82,6 +82,18 @@ header i {
   padding: 10px;
   width: 70%;
 }
+
+/* ---------------- h2 --------------*/
+
+#h2-titre {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+  height: 50;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
 /* --------------- titre h2 explications ----------------*/
 
 .h2-explications {
@@ -100,7 +112,7 @@ header i {
 .box3 {
   text-align: center;
   padding: 10px;
-  border: 1px solid rgba(128, 128, 128, 0.253);
+  /* border: 1px solid rgba(128, 128, 128, 0.253); */
 }
 
 .img {
@@ -109,15 +121,15 @@ header i {
   height: 100%;
 }
 
-.explications {
-  /* border: 1px solid red; */
+/* .explications {
+  border: 1px solid red; 
   margin: auto;
   width: 90%;
   margin-top: 30px;
 
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* containr naomi box pour margin bottom*/
 

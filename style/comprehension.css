@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "KaiseiTokumin";
+  src: url("/font/KaiseiTokumin-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: KaiseiTokumin, sans-serif;
+}
+
+/* -------------- header -------------*/
+
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------- logo -------------*/
+
+.box-logo {
+  width: 350px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* -------------- li de box-infos ------------*/
+
+.box-infos li {
+  color: black;
+  font-size: 20px;
+}
+.quiSuisJe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ---------------- li page d'accueil ------------*/
+.pageAccueil {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* h1*/
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* -------------- catégories ------------------ */
+.ensemble {
+  margin: auto;
+}
+.comprehension {
+  margin: auto;
+  width: 80%;
+  height: 30px;
+  border: 1px solid rgba(112, 98, 98, 0.253);
+  box-shadow: 2px 1px 1px rgba(128, 128, 128, 0.295);
+  transition: 0.5s;
+  margin-top: 25px;
+}
+
+.comprehension a {
+  color: black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.comprehension:hover {
+  background-color: rgba(128, 128, 128, 0.479);
+}

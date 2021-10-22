@@ -105,13 +105,15 @@ h1 {
   border: 1px solid rgba(128, 128, 128, 0.253);
   box-shadow: 2px 1px 1px rgba(128, 128, 128, 0.295);
   height: 70px;
-  width: 30%;
+  width: 100%;
   text-align: center;
   padding-top: 20px;
 }
+
 .trois-box-ensemble a {
   color: black;
   font-weight: bold;
+  width: 100%;
 }
 
 .box1:hover,
