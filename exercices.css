@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "KaiseiTokumin";
+  src: url("/font/KaiseiTokumin-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: KaiseiTokumin, sans-serif;
+}
+
+/* -------------- header -------------*/
+
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------- logo -------------*/
+
+.box-logo {
+  width: 350px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* -------------- li de box-infos ------------*/
+
+.box-infos li {
+  color: black;
+  font-size: 20px;
+}
+.quiSuisJe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ---------------- li page d'accueil ------------*/
+.pageAccueil {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* --------------- icone reseaux sociaux -----------*/
+
+.fa-instagram {
+  color: #e46fa8;
+}
+
+.fa-twitter {
+  color: #1a8cd8;
+}
+
+header i {
+  padding: 5px;
+}
+
+.ensemble {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+#reponse1,
+#reponse2,
+#reponse3 {
+  border: 2px solid black;
+  text-align: center;
+  margin-bottom: 30p;
+}
