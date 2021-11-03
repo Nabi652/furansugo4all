@@ -33,3 +33,15 @@ reponse3.addEventListener("click", () => {
   reponse3.style.transition = "1s";
   reponse3.style.marginBottom = "30px";
 });
+
+let reponse4 = document.getElementById("reponse4");
+
+reponse4.addEventListener("click", () => {
+  reponse4.style.border = "1px solid green";
+  reponse4.style.textAlign = "center";
+  reponse4.style.margin = "auto";
+  reponse4.style.transition = "1s";
+  reponse4.innerHTML = `Mon amie est peintre. Elle travaille à Paris depuis 2 ans. Elle participe à des expositions et elle connait beaucoup d'artistes. Le mois prochain, mon amie va aller à Londres pour exposer ses oeuvres. Elle est très contente mais elle est aussi un peu stressée parce qu'elle a peur que tout se passe mal. Pour préparer cette exposition, elle a besoin de travailler plus que d'habitude. Sa famille est très inquiète pour elle parce qu'elle est toujours fatiguée et elle est de mauvaise humeur. Je suis sûre que tout va bien se passer, elle doit rester positive et profiter de ce moment!`;
+  reponse4.style.transition = "1s";
+  reponse4.style.marginBottom = "30px";
+});
