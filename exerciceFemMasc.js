@@ -45,3 +45,15 @@ reponse4.addEventListener("click", () => {
   reponse4.style.transition = "1s";
   reponse4.style.marginBottom = "30px";
 });
+
+let reponse5 = document.getElementById("reponse5");
+
+reponse5.addEventListener("click", () => {
+  reponse5.style.border = "1px solid green";
+  reponse5.style.textAlign = "center";
+  reponse5.style.margin = "auto";
+  reponse5.style.transition = "1s";
+  reponse5.innerHTML = `C'est un chanteur, très populaire et connu dans le monde entier. Il fait des concerts partout et il a beaucoup de fans internationaux. Tout le monde aime sa jolie voix mais aussi sa personnalité et son sens de l'humour. Parfois, il chante avec son père, qui est aussi un grand chanteur. Il a arrêté sa carrière quand son fils est né. Ce chanteur aime son métier et il veut continuer jusqu'au bout. `;
+  reponse5.style.transition = "1s";
+  reponse5.style.marginBottom = "30px";
+});
