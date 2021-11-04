@@ -79,11 +79,19 @@ h3 {
 }
 
 .style {
-  border: 1px solid red;
+  border: 2px solid rgb(58, 58, 58);
   margin: auto;
   width: 70%;
-  height: 50px;
+  height: 60px;
+  border-radius: 30px;
 }
+
+.click {
+  padding-top: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .laststyle {
   margin-bottom: 20px;
 }

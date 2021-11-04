@@ -9,6 +9,7 @@ reponse1.addEventListener("click", () => {
   reponse1.style.transition = "1s";
   reponse1.style.marginBottom = "30px";
   reponse1.style.height = "auto";
+  reponse1.style.padding = "10px";
 });
 
 let reponse2 = document.getElementById("reponse2");
@@ -22,6 +23,7 @@ reponse2.addEventListener("click", () => {
   reponse2.style.transition = "1s";
   reponse2.style.marginBottom = "30px";
   reponse2.style.height = "auto";
+  reponse2.style.padding = "10px";
 });
 
 let reponse3 = document.getElementById("reponse3");
@@ -31,10 +33,11 @@ reponse3.addEventListener("click", () => {
   reponse3.style.textAlign = "center";
   reponse3.style.margin = "auto";
   reponse3.style.transition = "1s";
-  reponse3.innerHTML = `Elle est gentille <br> Elle a une soeur </br> Elle a deux chiennes</br> Elle est directrice </br>Elle est triste </br>Elle est heureuse </br> Elle a une chatte </br>Elle est plombière`;
+  reponse3.innerHTML = `Il est amoureux <br> Il veut un fils </br> Il est cuisinier</br> C'est un homme </br> Il est intelligent </br>Il est mignon </br> Il est patient </br>Il est beau`;
   reponse3.style.transition = "1s";
   reponse3.style.marginBottom = "30px";
   reponse3.style.height = "auto";
+  reponse3.style.padding = "10px";
 });
 
 let reponse4 = document.getElementById("reponse4");
