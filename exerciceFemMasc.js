@@ -111,3 +111,60 @@ reponse9.addEventListener("click", () => {
   reponse9.style.height = "auto";
   reponse9.style.padding = "10px";
 });
+
+let reponse10 = document.getElementById("reponse10");
+
+reponse10.addEventListener("click", () => {
+  reponse10.style.border = "1px solid green";
+  reponse10.style.textAlign = "center";
+  reponse10.style.margin = "auto";
+  reponse10.innerHTML = `a- Une cousine sympa </br>
+  b- Un présentateur ponctuel</br>
+  c- Un avocat agressif </br>
+  d- Une autrice timide </br>
+  e- Un voisin curieux </br>
+  f- Une femme inintéressante </br>
+  g- Une soeur égoïste </br>
+  h- Un caissier hypocrite </br>  `;
+  reponse10.style.marginBottom = "30px";
+  reponse10.style.height = "auto";
+  reponse10.style.padding = "10px";
+});
+
+let reponse11 = document.getElementById("reponse11");
+
+reponse11.addEventListener("click", () => {
+  reponse11.style.border = "1px solid green";
+  reponse11.style.textAlign = "center";
+  reponse11.style.margin = "auto";
+  reponse11.innerHTML = `
+  a- Un vieux sorcier habite près de la rivière. Il habite dans une grande maison avec un autre sorcier. Il est cruel et effrayant.</br>
+  b- Cette avocate travaille avec d'autres avocates. Elle a beaucoup de clientes. Elle s'occupe surtout des divorces. Elle est agressive et sûre d'elle.</br>
+  c- Le petit garçon aime jouetr dans le parc avec ses frères. Il aime aussi glisser sur le toboggan.</br>
+  d- L'employée du bureau travaille dans une petite entreprise. Tous les matins, elle s'occupe des dossiers et elle doit appeler les clientes.</br>
+  `;
+  reponse11.style.marginBottom = "30px";
+  reponse11.style.height = "auto";
+  reponse11.style.padding = "10px";
+});
+
+let reponse12 = document.getElementById("reponse12");
+
+reponse12.addEventListener("click", () => {
+  reponse12.style.border = "1px solid green";
+  reponse12.style.textAlign = "center";
+  reponse12.style.margin = "auto";
+  reponse12.innerHTML = `
+  a- Un homme coquet</br>
+  b- Une employée efficace</br>
+  c- Elle est avare</br>
+  d- Un garçon mignon</br>
+  e- Il est mince</br>
+  f- Elle est talentueuse</br>
+  g- Un conducteur prudent</br>
+  h- Une ancienne chanteuse</br>
+  `;
+  reponse12.style.marginBottom = "30px";
+  reponse12.style.height = "auto";
+  reponse12.style.padding = "10px";
+});
