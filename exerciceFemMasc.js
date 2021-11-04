@@ -72,3 +72,42 @@ reponse6.addEventListener("click", () => {
   reponse6.style.height = "auto";
   reponse6.style.padding = "10px";
 });
+
+let reponse7 = document.getElementById("reponse7");
+
+reponse7.addEventListener("click", () => {
+  reponse7.style.border = "1px solid green";
+  reponse7.style.textAlign = "center";
+  reponse7.style.margin = "auto";
+  reponse7.innerHTML = `a- Une femme populaire </br> b- Une chatte noire </br> c- Une jument grise </br> d- Une louve intelligente <br/> e- Une tante généreuse </br> f- Une vieille veuve </br> g- Une cuisinière gourmande </br> h- Une professeure souriante `;
+  reponse7.style.marginBottom = "30px";
+  reponse7.style.height = "auto";
+  reponse7.style.padding = "10px";
+});
+
+let reponse8 = document.getElementById("reponse8");
+
+reponse8.addEventListener("click", () => {
+  reponse8.style.border = "1px solid green";
+  reponse8.style.textAlign = "center";
+  reponse8.style.margin = "auto";
+  reponse8.innerHTML = `a- Un garçon obéissante </br> b- Un homme rebelle </br> c- Un coq bruyant </br> d- Un cheval paresseux<br/> e- Un directeur adjoint </br> f- Un animateur motivé </br> g- Un artiste doué </br> h- Un champion olympique `;
+  reponse8.style.marginBottom = "30px";
+  reponse8.style.height = "auto";
+  reponse8.style.padding = "10px";
+});
+
+let reponse9 = document.getElementById("reponse9");
+
+reponse9.addEventListener("click", () => {
+  reponse9.style.border = "1px solid green";
+  reponse9.style.textAlign = "center";
+  reponse9.style.margin = "auto";
+  reponse9.innerHTML = `a- Cette cheffe est très stricte. Les employées ont peur d'elle. Quand elle marche dans le bureau, tout le monde baisse les yeux et travaille. </br>
+  b- Cet ami est fidèle. Il aide toujours ses autres amis quand ils ont des problèmes. Il est aussi tolérant et sympa.</br>
+  c- J'aime beaucoup mon grand-père. Quand je vais chez mon grand-père, il cuisine mes plats préférés. Il écoute mes histoires et il me donne des conseils. </br>
+  d- C'est une princesse. Sa mère est la reine. Elle est importante et puissante. La princesse est protectrice et courageuse. Le peuple aime la reine mais aussi la princesse.  `;
+  reponse9.style.marginBottom = "30px";
+  reponse9.style.height = "auto";
+  reponse9.style.padding = "10px";
+});
