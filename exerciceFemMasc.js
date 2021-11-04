@@ -51,6 +51,7 @@ reponse4.addEventListener("click", () => {
   reponse4.style.transition = "1s";
   reponse4.style.marginBottom = "30px";
   reponse4.style.height = "auto";
+  reponse4.style.padding = "10px";
 });
 
 let reponse5 = document.getElementById("reponse5");
@@ -64,4 +65,22 @@ reponse5.addEventListener("click", () => {
   reponse5.style.transition = "1s";
   reponse5.style.marginBottom = "30px";
   reponse5.style.height = "auto";
+  reponse5.style.padding = "10px";
+});
+
+let reponse6 = document.getElementById("reponse6");
+
+reponse6.addEventListener("click", () => {
+  reponse6.style.border = "1px solid green";
+  reponse6.style.textAlign = "center";
+  reponse6.style.margin = "auto";
+  reponse6.style.transition = "1s";
+  reponse6.innerHTML = `1- C'est une magicienne. Elle habite dans la forêt. Elle est petite et vilaine. Elle a les cheveux longs et noirs. Elle est très rusée et rapide. Elle déteste les enfants et elle préfère rester seule. </br>
+  2- Il est policier. Il travaille toute la journée. Il doit arrêter les criminels et les voleurs. Son travail n'est pas facile mais son travail est intéressant. </br>
+  3- Elle est maîtresse d'école. Elle est grande et grosse. Elle est très gentille et patiente. Tous ses élèves aiment beaucoup cette maîtresse d'école. </br>
+  4- Il est pâtissier. Il prépare de très bons gâteaux. Son gâteau préféré est au chocolat. Il est très doué et il a beaucoup d'imagination pour faire ses gâteaux.  `;
+  reponse6.style.transition = "1s";
+  reponse6.style.marginBottom = "30px";
+  reponse6.style.height = "auto";
+  reponse6.style.padding = "10px";
 });
